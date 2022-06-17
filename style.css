@@ -1,0 +1,71 @@
+:root{
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+}
+
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: var(--red);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+@media only screen and (min-width:320px) and (max-width:1080px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-con{
+        margin-bottom: 50px;
+        padding: 20px 10px;
+    }
+    
+}
+.text-con{
+    margin-top: 200px;
+}
+.form-con{
+    margin-top: 70px;
+    padding: 20px;
+}
+.form form{
+    padding: 10px;
+    width: 80px;
+}
+h4{
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 55px;
+    font-size: 200;
+    font-weight: 300;
+    cursor: pointer;
+}
+.span{
+    font-weight: 700;
+}
+.form{
+    background-color: white;
+    padding: 9px;
+}
+h3{
+    background-color: var(--green);
+    padding: 8px;
+    text-align: center;
+    margin: 5px 10px;
+    font-weight: 300;
+    font-size: 200;
+    cursor: pointer;
+}
+.terms{
+    color: black;
+    font-size: x-small;
+    text-align: center;
+}
+.last{
+    color: var(--red);
+}
