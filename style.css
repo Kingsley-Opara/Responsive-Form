@@ -27,6 +27,12 @@ body{
     }
     
 }
+@media only screen and (min-width:250px) and (max-width:750px) {
+    .input{
+        width: 250px;
+    } 
+    
+}
 .text-con{
     margin-top: 200px;
 }
@@ -68,4 +74,7 @@ h3{
 }
 .last{
     color: var(--red);
+}
+input{
+    width:350px;
 }
