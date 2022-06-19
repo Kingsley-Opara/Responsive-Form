@@ -29,7 +29,7 @@ body{
 }
 @media only screen and (min-width:250px) and (max-width:450px) {
     .input{
-        width: 280px;
+        width: 270px;
     } 
     
 }
